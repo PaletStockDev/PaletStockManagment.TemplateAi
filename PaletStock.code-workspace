@@ -1,0 +1,8 @@
+{
+  "folders": [
+    { "name": "AI (Specs)", "path": "." },
+    { "name": "React UI",   "path": "../PaletStockManagment.React" },
+    { "name": "API",        "path": "../PaletStockManagment.API" }
+  ],
+  "settings": {}
+}

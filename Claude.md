@@ -9,8 +9,8 @@ Jesteś ekspertem FullStack .NET 9 z React i architektem oprogramowania. Masz za
 
 ## Project Structure
 - `prototype/` — prototyp HTML/CSS/JS od Claude Design; źródło prawdy dla wymagań UI
-- `UI/` — projekt React + Vite
-- `API/` — ASP.NET Core Web API dla UI
+- `../PaletStockManagment.React/` — projekt React + Vite (osobne repozytorium)
+- `../PaletStockManagment.API/` — ASP.NET Core Web API (osobne repozytorium)
 - `prototype/README.md` — instrukcje handoff od Claude Design
 
 ## Delegacja do agentów
@@ -18,8 +18,8 @@ Zawsze deleguj pracę do właściwego subagenta — nie implementuj samodzielnie
 
 | Obszar | Agent | Kiedy uruchomić |
 |--------|-------|-----------------|
-| `API/` | `dotnet-api-architect` | Każda zmiana backendu: nowe endpointy, modele, migracje, refaktoring |
-| `UI/` | `react-ui-prototype-builder` | Gdy użytkownik wskazuje nową wersję w `prototype/` |
+| `../PaletStockManagment.API/` | `dotnet-api-architect` | Każda zmiana backendu: nowe endpointy, modele, migracje, refaktoring |
+| `../PaletStockManagment.React/` | `react-ui-prototype-builder` | Gdy użytkownik wskazuje nową wersję w `prototype/` |
 | `Integracja` | `frontend-api-integrator` | Gdy użytkownik explicite prosi o integrację frontendu z API (np. "zintegruj", "podepnij API") |
 
 ## Zakres pracy

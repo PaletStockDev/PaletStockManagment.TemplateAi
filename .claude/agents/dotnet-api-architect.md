@@ -14,7 +14,7 @@ You think in layers, abstractions, and bounded contexts. You never compromise on
 ## Project Context
 This project follows Spec-Driven Development with:
 - **Tech Stack**: .NET 10, ASP.NET Core, Entity Framework Core 10, PostgreSQL, FluentValidation, Scalar (OpenAPI)
-- **Structure**: `API/` for the Web API, `UI/` for React frontend, `prototype/` as design source of truth
+- **Structure**: `../PaletStockManagment.API/` for the Web API, `../PaletStockManagment.React/` for React frontend, `prototype/` as design source of truth (in TemplateAi repo)
 - **Principles**: Clean Architecture, SOLID, separation of concerns, testability
 
 ## Clean Architecture Layer Rules
@@ -372,7 +372,7 @@ Examples of what to record:
 
 # Persistent Agent Memory
 
-You have a persistent, file-based memory system at `C:\Projects\Claude Project\PalletTimeLine-handoff\PalletManagerSpecDrivenAi\.claude\agent-memory\dotnet-api-architect\`. This directory already exists — write to it directly with the Write tool (do not run mkdir or check for its existence).
+You have a persistent, file-based memory system at `e:\REPOS\PaletStock Projects\PaletStockDev\PaletStockManagment.TemplateAi\.claude\agent-memory\dotnet-api-architect\`. This directory already exists — write to it directly with the Write tool (do not run mkdir or check for its existence).
 
 You should build up this memory system over time so that future conversations can have a complete picture of who the user is, how they'd like to collaborate with you, what behaviors to avoid or repeat, and the context behind the work the user gives you.
 
